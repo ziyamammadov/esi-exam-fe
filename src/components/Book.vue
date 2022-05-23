@@ -19,7 +19,6 @@
         <select v-model="book.selectedStatus" name="statusList" id="statusList">
           <option value="AVAILABLE">AVAILABLE</option>
           <option value="BOOKED">BOOKED</option>
-          <option value="DELETED">DELETED</option>
           <option value="RENTED">RENTED</option>
           <option value="UNAVAILABLE">UNAVAILABLE</option>
         </select>
