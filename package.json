@@ -6,13 +6,14 @@
   },
   "private": true,
   "scripts": {
+    "start": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "@vue/cli-plugin-babel": "^4.5.0",
-    "@vue/cli-plugin-typescript": "^4.5.0",
-    "@vue/cli-service": "^4.5.0",
+    "@vue/vue-cli-plugin-babel": "^4.5.0",
+    "@vue/vue-cli-plugin-typescript": "^4.5.0",
+    "@vue/vue-cli-service": "^4.5.0",
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
